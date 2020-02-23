@@ -1,0 +1,1064 @@
+/*@media only screen and (min-width:414px) and (max-width:414px) and (orientation: portrait) {*/
+
+@font-face {
+  font-family: Montserrat;
+  src: url('Montserrat-Medium.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../images/bg-blue@2x.png);
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  font-family: Montserrat;
+}
+
+img {
+  max-width: 100%;
+  /* height: 100%; */
+}
+
+a {
+  color: #fff;
+  text-decoration: transparent;
+}
+
+/* base */
+.mgauto {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.black {
+  background: #222;
+}
+
+.gary {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+}
+.gary12 {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.gary25 {
+  color: rgb(255, 255, 255, 0.25);
+  font-size: 0.625rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.m1rem {
+  margin: 1rem;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mt5 {
+  margin-top: 5rem;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* header */
+header {
+  text-align: center;
+  position: relative;
+  padding-top: 1rem;
+  font-size: 0.8125rem;
+}
+
+header.flex {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-between;
+}
+
+.black header {
+  background: #282828;
+}
+
+header .titleSpan {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.back {
+  width: 4.375rem;
+  height: 2.8125rem;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  border-bottom: tomato solid 0.125rem;
+}
+
+.arrow {
+  width: 4.375rem;
+  height: 2.8125rem;
+  border-bottom: rgb(238, 238, 238, 0.25) solid 0.125rem;
+}
+
+.tomato {
+  border-bottom: tomato solid 0.125rem;
+}
+
+.rightimg img {
+  margin-right: 1.5rem;
+}
+
+.back img {
+  width: 0.625rem;
+}
+
+.cont {
+  text-align: center;
+}
+
+.orbtn {
+  background: url(../images/btn@2x.png) no-repeat;
+  background-size: contain;
+  border: none;
+  width: 20.3125rem;
+  height: 3rem;
+  color: #fff;
+  font-size: 0.75rem;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.linebtn {
+  position: relative;
+  background: transparent;
+  border: rgb(238, 238, 238, 0.25) 0.125rem solid;
+  border-radius: 1.5rem;
+  width: 20.3125rem;
+  height: 3rem;
+  color: #fff;
+  font-size: 0.75rem;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+/* 40px */
+.title1 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+
+/* 26px */
+.title2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+
+/* 30px */
+.title3 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+/* 22px */
+.title22 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+.title18 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+
+.title4 {
+  color: #444444;
+  font-size: 1.25rem;
+  font-weight: 200;
+  font-family: Montserrat;
+}
+.pl1 {
+  padding-left: 1rem;
+}
+.textRight {
+  text-align: right;
+}
+/* Splash */
+.logo {
+  width: 19.875rem;
+  padding-top: 9.375rem;
+  margin: 0 auto;
+}
+
+.line-or {
+  width: 12.5rem;
+  height: 0.875rem;
+  background: url(../images/Devider@2x.png) no-repeat;
+  background-size: cover;
+  margin: 1rem auto;
+}
+
+.splash-btn {
+  margin-top: 3rem;
+}
+
+/* login */
+.loginCont {
+  margin-top: 4rem;
+}
+
+.autoForm input {
+  width: 19.0625rem;
+  height: 2rem;
+  line-height: 2rem;
+  display: block;
+  background: transparent;
+  border: none;
+  margin: 0.8rem auto;
+  border-bottom: 0.125rem solid rgb(255, 255, 255, 0.25);
+}
+
+input + input {
+  margin-top: 0.5rem;
+}
+
+button + button {
+  margin-top: 1rem;
+}
+
+.linebtn .icon {
+  display: inline-block;
+  position: absolute;
+  left: 1rem;
+  width: 1.125rem;
+  height: 2.0625rem;
+}
+
+.icon5 {
+  top: 0;
+  background: url(../images/icon-5.png) no-repeat;
+}
+
+.icon4 {
+  top: 0.8rem;
+  background: url(../images/icon-4.png) no-repeat;
+}
+
+.readiobox {
+  margin: 2rem auto;
+  width: 19.0625rem;
+  text-align: left;
+  display: flex;
+  font-size: 0.625rem;
+}
+
+.readio {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.6rem;
+  background: url(../images/circle.png) no-repeat;
+}
+
+.readio.active {
+  background: url(../images/checkbox.png) no-repeat;
+}
+
+.topLineBox {
+  position: fixed;
+  bottom: 3rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 19.0625rem;
+  height: 2.1875rem;
+  line-height: 2.5rem;
+  border-top: rgb(238, 238, 238, 0.25) 0.125rem solid;
+}
+
+.topLineBox .bLine {
+  margin-left: 0.6rem;
+  font-size: 0.625rem;
+  border-bottom: #fff.125rem solid;
+}
+
+/* recover */
+.icons {
+  width: 9.375rem;
+}
+
+.recoverCont {
+  margin-top: 6rem;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+/* explore */
+.flexBen {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexBen a {
+  padding: 0.8rem 1.5625rem;
+  border-bottom: 0.125rem solid rgb(250, 250, 250, 0.25);
+}
+
+.flexBen a img {
+  width: 1.25rem;
+}
+
+.exploreCont {
+  padding: 46px 46px 100px;
+}
+
+.stepBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emoji {
+  width: 4rem;
+  height: 4rem;
+}
+
+.slide .title4 {
+  margin: 0.2rem 0.5rem 0;
+}
+
+.price {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #9495a2;
+  font-family: Montserrat;
+  margin: 0.2rem 0.5rem 0.5rem;
+}
+
+.btnorg {
+  background: url(../images/base.png) no-repeat;
+  background-size: contain;
+  width: 6rem;
+  height: 1.5rem;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.flexBen .more {
+  width: 1rem;
+  height: 0.1875rem;
+}
+
+hr.mt1 {
+  color: #ddd;
+}
+
+.sunbox {
+  width: 50%;
+  position: relative;
+}
+
+.sunbox::before {
+  content: ' ';
+  display: block;
+  width: 0.125rem;
+  background: #ddd;
+  height: 30px;
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+
+.sun {
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-right: 1rem;
+}
+
+.weather {
+  font-size: 0.625rem;
+  font-weight: 200;
+  color: rgba(34, 34, 34, 0.5);
+}
+
+.weathenum {
+  color: #444444;
+  font-size: 1.25rem;
+  font-weight: 200;
+  font-family: Montserrat;
+}
+
+.weathenum span {
+  color: #222222;
+  font-size: 0.5625rem;
+  font-weight: 200;
+  font-family: Montserrat;
+}
+
+.startBox {
+  padding-left: 1.2rem;
+}
+
+.stars {
+  width: 5.25rem;
+}
+
+.addbox img {
+  vertical-align: middle;
+}
+
+.addbtn {
+  margin: 0 1.2rem;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  padding: 0 2rem;
+  line-height: 6rem;
+  vertical-align: middle;
+  background: rgba(250, 250, 250, 0.1);
+}
+
+footer img {
+  width: 1.625rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+footer li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+footer li.active {
+  border-top: 0.0625rem #fff solid;
+}
+
+/* scenicSpot */
+.scenicSpot {
+  background: url(../images/bgspot.png) repeat;
+}
+
+.SpotCont {
+  position: absolute;
+  width: 70%;
+  bottom: 5rem;
+  left: 3rem;
+}
+
+.SpotCont .price {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.SpotCont .weathenum {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+.SpotCont .weather,
+.SpotCont .weathenum span {
+  color: rgb(255, 255, 255, 0.5);
+}
+
+a.backbtn {
+  position: absolute;
+  right: 0;
+  bottom: 4rem;
+  padding: 0;
+  border-bottom: none;
+}
+a.backbtn img {
+  width: 100%;
+}
+
+.taskBar {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 1.6875rem;
+  background: rgb(22, 23, 22, 0.75);
+  z-index: 999;
+}
+
+.footerUl {
+  background: rgb(22, 23, 22, 0.75);
+  bottom: -5rem;
+}
+
+/* SpotInfo */
+.SpotInfo {
+  background: url(../images/bg.png) repeat;
+  background-size: cover;
+}
+
+.SpotInfo .SpotCont {
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  width: 90%;
+  padding: 1.5rem;
+}
+
+.SpotInfo .SpotCont .about {
+  font-size: 0.625rem;
+  font-weight: 200;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 0.875rem;
+}
+
+.SpotInfo .SpotCont p {
+  font-size: 0.75rem;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.features {
+  margin: 2rem;
+  padding: 1.5rem;
+  background: rgb(242, 242, 242, 0.15);
+  border-radius: 1rem;
+  border: 0.125rem rgb(255, 255, 255, 0.3) solid;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.features .title2 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.features ul li {
+  position: relative;
+  float: left;
+  width: 33%;
+  height: 5.8125rem;
+  text-align: center;
+}
+
+li.line::before {
+  content: ' ';
+  display: block;
+  width: 0.125rem;
+  background: rgb(242, 242, 242, 0.15);
+  height: 1.375rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 0;
+}
+
+li.line::after {
+  content: ' ';
+  display: block;
+  width: 0.125rem;
+  background: rgb(242, 242, 242, 0.15);
+  height: 1.375rem;
+  position: absolute;
+  top: 0.75rem;
+  left: 0;
+}
+
+.features ul li p {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  margin-top: 0.5rem;
+}
+
+/* booking */
+.bookingCont {
+  padding: 2.5rem;
+}
+.wednesday {
+  width: 8rem;
+  font-weight: 400;
+  padding: 2rem 0 0.8rem 0;
+  border-bottom: 0.125rem solid rgba(255, 255, 255, 0.25);
+}
+.wednesday h1 {
+  padding-left: 0.5rem;
+  font-size: 1.875rem;
+}
+.wednesday span {
+  font-size: 1.125rem;
+}
+.wednesday h2 {
+  padding-left: 0.4rem;
+  font-size: 0.75rem;
+}
+
+.betweenEnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.betweenEnd-item .pd6 {
+  padding: 0.25rem 0.625rem;
+}
+.adults {
+  width: 8.75rem;
+  height: 3.125rem;
+  border: 2px solid #444;
+  border-radius: 1.5625rem;
+  padding: 0.625rem;
+  display: flex;
+  text-align: center;
+}
+.adults .reduce,
+.adults .add {
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  line-height: 1.875rem;
+  text-align: center;
+}
+.adults .reduce {
+  background-color: #444;
+  color: #aaa;
+}
+.adults .add {
+  background: linear-gradient(45deg, #861414, #dc3605, #dc5a3e, #f3907f);
+  color: #fff;
+}
+.adults .num {
+  flex: 1;
+  font-size: 1.625rem;
+}
+
+.blackLine {
+  position: relative;
+  left: -20px;
+  background: rgba(0, 0, 0, 0.15);
+  height: 0.5rem;
+  width: 110%;
+  margin: 2.25rem 0;
+}
+.Proceed {
+  position: fixed;
+  bottom: 3rem;
+}
+
+/* info */
+.infoCont {
+  padding: 2.5rem;
+}
+.pinacoteca {
+  height: 6.25rem;
+  padding: 1.6rem;
+  background: url(../images/Pinacoteca.png);
+}
+
+.infoCont .details li {
+  font-size: 0.75rem;
+  line-height: 3.125rem;
+  height: 3.125rem;
+  color: #fff;
+  border-bottom: 0.125rem solid rgba(255, 255, 255, 0.15);
+}
+.infoCont .details li .gary {
+  line-height: 3.125rem !important;
+}
+
+.cancellation {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.cancellation img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 3rem;
+  vertical-align: middle;
+}
+.cancellation .gary {
+  height: 2rem;
+  padding-left: 5rem;
+  margin-top: 0.5rem;
+  line-height: 2rem;
+  border-left: 0.125rem solid rgba(255, 255, 255, 0.15);
+}
+
+.total {
+  position: fixed;
+  width: 100%;
+  bottom: -10rem;
+  padding: 1.5rem 2.5rem;
+  background: linear-gradient(#ca482c, #e67e4c);
+}
+
+.total .title18 {
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+.total img {
+  position: absolute;
+  right: 8%;
+  top: 20%;
+}
+/* done */
+.DoneCont {
+  margin-top: 12rem;
+}
+
+.done {
+  width: 5rem;
+  margin-bottom: 3rem;
+}
+.backDone {
+  margin-top: 3rem;
+  display: block;
+}
+
+/* savedList */
+
+.saved .arrow img {
+  width: 0.625rem;
+}
+
+.saved header {
+  background: transparent;
+}
+
+.saved header .titleSpan {
+  top: 1.8rem;
+}
+.saved .savedType {
+  height: 5.625rem;
+  line-height: 5.625rem;
+  background: #282828;
+  padding: 0 2rem;
+}
+
+.savedType .checkBtn img {
+  width: 1.375rem;
+  margin-left: 1rem;
+}
+.bg-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5625rem;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.savedMain {
+  margin: 1.5rem 2.5rem 3rem;
+}
+.savedMain .saveItem {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 1.5rem;
+  height: 14.6875rem;
+  background-size: contain;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.saveItem1 {
+  background: url(../images/save1.png) no-repeat;
+}
+.saveItem2 {
+  background: url(../images/save2.png) no-repeat;
+}
+.saveItem3 {
+  background: url(../images/save3.png) no-repeat;
+}
+
+.saveItem .title2 {
+  position: relative;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+.saveItem2 .title2,
+.saveItem3 .title2 {
+  margin-top: 6.5rem;
+}
+
+.saveItem hr {
+  color: rgba(221, 221, 221, 0.25);
+}
+.saveItem .sunbox {
+  width: 38%;
+}
+.saveItem .weathenum {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+.pr {
+  position: relative;
+}
+.saveItem .sunbox::before {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.saveItem .unsave {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.saveItem .sun {
+  margin-right: 0;
+}
+
+/* SavedGrid */
+.SavedGrid li {
+  position: relative;
+  float: left;
+  width: 90%;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  background: #333;
+  border-radius: 1.5625rem;
+}
+.SavedGrid li .unsave {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  width: 0.875rem;
+  height: 1rem;
+}
+.SavedGrid li .title2 {
+  font-size: 1.0625rem;
+  font-weight: 200;
+  line-height: 1.375rem;
+  margin: 0.8rem 0.5rem;
+}
+.lineWT {
+  height: 0.125rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.SavedGrid li .sunbox::before {
+  bottom: 0;
+  top: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.SavedGrid li .weathenum {
+  color: #fff;
+  display: flex;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  line-height: 1.875rem;
+}
+.SavedGrid li .sunbox {
+  width: 40%;
+}
+
+.SavedGrid li .sun {
+  margin-right: 0.5rem;
+}
+.SavedGrid li .weathenum img {
+  width: 0.875rem;
+  height: 0.8125rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.SavedGrid li .startBox {
+  padding-left: 0.5rem;
+}
+
+.savedMain.sGrid {
+  margin: 1.5rem 2rem 3rem 1rem;
+}
+
+/* Reviews-adults */
+.reviewsChange {
+  display: flex;
+  background: #282828;
+  padding: 1rem 2rem;
+}
+.reviewsChange a {
+  position: relative;
+  display: block;
+  font-size: 0.625rem;
+  line-height: 1.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.reviewsChange a img {
+  vertical-align: middle;
+  margin: 0 2rem;
+  position: absolute;
+  right: 0;
+  top: 0.375rem;
+}
+.reviewsChange a.active::before {
+  content: ' ';
+  display: block;
+  width: 1.875rem;
+  background: linear-gradient(#f2b1ac, #f84314);
+  height: 0.125rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.goHref {
+  width: 8.25rem;
+}
+.flex1 {
+  flex: 1;
+}
+.voted {
+  padding-left: 1.5rem;
+  border-left: 0.125rem solid rgb(255, 255, 255, 0.15);
+}
+
+.Reviews {
+  padding: 2.5rem;
+}
+
+.Reviews li {
+  position: relative;
+  background: #333333;
+  border-radius: 1.5625rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Reviews li .people {
+  position: absolute;
+  top: 1.3rem;
+  left: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.Reviews li h5 {
+  font-size: 0.875rem;
+  margin: 1rem 0 0.5rem;
+}
+.loveBox img {
+  width: 1rem;
+  vertical-align: middle;
+}
+.loveBox span {
+  display: inline-block;
+  padding: 0 2rem 0 0.8rem;
+}
+.loveBox .more {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+}
+
+.Reviews .addbtn {
+  position: fixed;
+  width: 5rem;
+  right: -1rem;
+  bottom: 3rem;
+}
+
+/* AddReviews */
+.AddReviews {
+  text-align: center;
+  margin: 1rem 2.5rem;
+}
+.AddReviews .reviewimg {
+  width: 6.25rem;
+  margin-top: 2rem;
+}
+.orgLine {
+  width: 16.5625rem;
+  height: 0.125rem;
+  margin: 1rem auto;
+  background: linear-gradient(#d58149, #bc2d0a);
+}
+.saveBtn {
+  position: fixed;
+  bottom: 3rem;
+  left: 50px;
+}
+
+.addInput {
+  background: #333;
+  width: 100%;
+  height: 9.375rem;
+  border: none;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+.textarea {
+    margin-top: 2rem;
+}
+.textarea .gary {
+  line-height: 1.875rem;
+  position: absolute;
+  width: 90%;
+  top: 0.5rem;
+  left: 1rem;
+  text-align: left;
+  border-bottom: 0.125rem solid rgb(255, 255, 255, 0.25);
+}
+.textarea .add {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 1rem;
+}
+
+.statsBox {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.formItemDiff {
+  width: 1.6rem;
+  height: 1.5625rem;
+  background-image: url(../images/bgStars.png);
+  float: left;
+  margin-left: 1rem;
+}
+.formItemDiffFirst {
+  margin: 0 auto;
+}
